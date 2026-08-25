@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy-950: #05070f;
+  --color-navy-900: #0a0e1f;
+  --color-navy-800: #0f1530;
+  --color-navy-700: #161d42;
+
+  --color-indigo-500: #6366f1;
+  --color-indigo-400: #818cf8;
+
+  --color-teal-500: #14b8a6;
+  --color-teal-400: #2dd4bf;
+
+  --color-amber-500: #f59e0b;
+  --color-amber-400: #fbbf24;
+
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--color-navy-950);
+  color: #e2e8f0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light theme - proper color system */
+[data-theme="light"] {
+  --color-navy-950: #f8fafc;
+  --color-navy-900: #ffffff;
+  --color-navy-800: #eef2f7;
+  --color-navy-700: #dbe2ea;
+}
+
+#portfolio-content[data-theme="light"] {
+  --color-navy-950: #f8fafc;
+  --color-navy-900: #ffffff;
+  --color-navy-800: #eef2f7;
+  --color-navy-700: #dbe2ea;
+}
+
+#portfolio-content[data-theme="light"] .text-white {
+  color: #0f172a;
+}
+
+#portfolio-content[data-theme="light"] .text-gray-300 {
+  color: #334155;
+}
+
+#portfolio-content[data-theme="light"] .text-gray-400 {
+  color: #475569;
+}
+
+#portfolio-content[data-theme="light"] .text-gray-500 {
+  color: #64748b;
+}
+
+#portfolio-content[data-theme="light"] .text-gray-600 {
+  color: #94a3b8;
+}
+
+#portfolio-content[data-theme="light"] .text-teal-300,
+#portfolio-content[data-theme="light"] .text-teal-400 {
+  color: #0d9488;
+}
+
+#portfolio-content[data-theme="light"] .text-amber-300,
+#portfolio-content[data-theme="light"] .text-amber-400 {
+  color: #b45309;
+}
+
+#portfolio-content[data-theme="light"] .bg-navy-800 {
+  background-color: #e2e8f0;
+}
+
+#portfolio-content[data-theme="light"] .border-navy-700 {
+  border-color: #cbd5e1;
+}
+
+@keyframes loadbar {
+  from { width: 0%; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+@keyframes blob1 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(60px, 40px) scale(1.1); }
+  66% { transform: translate(-40px, 60px) scale(0.95); }
+}
+
+@keyframes blob2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(-50px, 30px) scale(1.05); }
+  66% { transform: translate(40px, -40px) scale(0.9); }
+}
+
+@keyframes blob3 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(50px, -30px) scale(1.15); }
+}
