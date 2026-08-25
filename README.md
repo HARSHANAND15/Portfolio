@@ -1,75 +1,127 @@
-# React + TypeScript + Vite
+# 3D Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive, animated developer portfolio built with React, TypeScript, and Three.js — featuring a rotating 3D wireframe hero scene, a Matrix-style code-rain background, a Java-inspired loading animation, and smooth scroll-triggered reveals throughout.
 
-Currently, two official plugins are available:
+**Live Demo:** _add your deployed link here_
+**Repository:** https://github.com/HARSHANAND15/Portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **3D Hero Scene** — animated wireframe torus and sphere built with React Three Fiber
+- **Matrix Code Rain** — canvas-based falling character animation
+- **Java-Style Loading Screen** — typewriter effect simulating `System.out.println("Harsh Anand");` with a console-style output panel
+- **Smooth Scroll** — buttery, momentum-based scrolling powered by Lenis
+- **Scroll Reveal Animations** — sections fade and scale into view as you scroll
+- **Custom Cursor** — glowing dot-and-ring cursor with hover interactions
+- **Magnetic Buttons** — CTA buttons that subtly follow the cursor
+- **3D Tilt Project Cards** — cards tilt on mouse movement for a tactile feel
+- **Flip Cards** — project cards flip on hover to reveal a short description and links
+- **Animated Background** — floating wireframe shapes rendered behind all content
+- **Fully Responsive** — optimized layout for mobile, tablet, and desktop
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+| Category | Tools |
+|---|---|
+| Framework | React, TypeScript, Vite |
+| 3D / Graphics | Three.js, @react-three/fiber, @react-three/drei |
+| Styling | Tailwind CSS v4 |
+| Animation | Custom hooks (Intersection Observer), Lenis (smooth scroll) |
+| Icons | lucide-react, custom SVG brand icons |
+| Linting | ESLint |
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Project Structure
 
 ```
+src/
+├── components/
+│   ├── layout/       # Navbar, Footer (future use)
+│   ├── sections/     # Hero, About, Education, Experience, Projects, Contact
+│   ├── three/        # 3D scene components (Canvas, geometry, lighting)
+│   └── ui/           # Reusable UI: Reveal, SplitText, CustomCursor, etc.
+├── hooks/            # Custom hooks (useInView, useMagnetic, useTilt, useSmoothScroll)
+├── data/             # Portfolio content (education, experience, projects, skills)
+├── assets/           # Images and static files
+├── App.tsx
+├── main.tsx
+└── index.css
+```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Getting Started
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Prerequisites
+- Node.js (v18 or higher recommended)
+- npm
+
+### Installation
+
+```bash
+git clone https://github.com/HARSHANAND15/Portfolio.git
+cd Portfolio
+npm install
+```
+
+### Development
+
+```bash
+npm run dev
+```
+
+Visit `http://localhost:5173` in your browser.
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+---
+
+## Customization
+
+All personal content (education, work experience, projects, skills, and contact details) lives in a single file for easy editing:
 
 ```
+src/data/portfolio.ts
+```
+
+Update the exported objects/arrays there to personalize the site without touching component code.
+
+---
+
+## Deployment
+
+This project is a static Vite build and can be deployed on any static hosting platform:
+
+- **Vercel** (recommended — zero-config for Vite projects)
+- **Netlify**
+- **GitHub Pages**
+- **Firebase Hosting**
+
+---
+
+## License
+
+This project is licensed under the MIT License — see the [LICENSE](./LICENSE) file for details.
+
+---
+
+## Author
+
+**Harsh Anand**
+Full Stack Developer
+[GitHub](https://github.com/HARSHANAND15)
