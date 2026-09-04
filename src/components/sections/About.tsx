@@ -14,7 +14,7 @@ export default function About() {
           <Reveal>
             <div className="relative w-48 h-60 md:w-56 md:h-72 mx-auto md:mx-0">
               <div className="relative w-full h-full rounded-2xl overflow-hidden bg-navy-900 border border-navy-700">
-                <img src="https://ui-avatars.com/api/?name=Harsh+Anand&background=0a0e1f&color=2dd4bf&size=512&bold=true&font-size=0.35" alt="Harsh Anand" className="w-full h-full object-cover grayscale contrast-125" />
+                <img src="/harsh.jpg" alt="Harsh Anand" className="w-full h-full object-cover grayscale contrast-125" />
                 <div className="absolute inset-0 bg-gradient-to-t from-navy-950/40 to-transparent" />
               </div>
 
