@@ -3,7 +3,7 @@
 An interactive, animated developer portfolio built with React, TypeScript, and Three.js — featuring a rotating 3D wireframe hero scene, a Matrix-style code-rain background, a Java-inspired loading animation, and smooth scroll-triggered reveals throughout.
 
 **Live Demo:** _add your deployed link here_
-**Repository:** https://github.com/HARSHANAND15/Portfolio
+Repository: https://portfolio-iota-olive-harshanand.vercel.app/
 
 ---
 
