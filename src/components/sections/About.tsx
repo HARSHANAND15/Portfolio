@@ -2,15 +2,15 @@ import { skills } from '../../data/portfolio'
 import Reveal from '../ui/Reveal'
 import SplitText from '../ui/SplitText'
 
-const navPills = ['About Me', 'Education', 'Experience', 'Projects', 'Contact']
+const navPills = ['About Me', 'Education', 'Experience', 'Certificates', 'Projects', 'Contact']
 
 export default function About() {
   return (
-    <section id="about" className="relative z-10 py-24 px-6 md:px-16 overflow-hidden">
+    <section id="about" className="relative z-10 py-16 sm:py-24 px-4 sm:px-6 md:px-16 overflow-hidden">
       <div className="absolute top-10 right-[8%] w-[400px] h-[400px] bg-teal-500/10 rounded-full blur-[130px] pointer-events-none" />
 
       <div className="relative max-w-6xl mx-auto">
-        <div className="grid md:grid-cols-[240px_1fr] gap-10 md:gap-14 items-center mb-20">
+        <div className="grid md:grid-cols-[240px_1fr] gap-8 md:gap-14 items-center mb-14 sm:mb-20">
           <Reveal>
             <div className="relative w-48 h-60 md:w-56 md:h-72 mx-auto md:mx-0">
               <div className="relative w-full h-full rounded-2xl overflow-hidden bg-navy-900 border border-navy-700">
@@ -36,22 +36,28 @@ export default function About() {
             <p className="text-teal-400 font-mono text-xs md:text-sm tracking-[0.2em] mb-3 uppercase">
               Developer
             </p>
-            <h2 className="text-3xl md:text-5xl font-bold text-white leading-[1.15] mb-5">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-[1.15] mb-5">
               <SplitText text="Code that thinks, " />
               <span className="text-amber-400"><SplitText text="products that scale" /></span>
             </h2>
             <p className="text-gray-400 text-sm md:text-base leading-relaxed max-w-xl mb-7">
               My mission is to blend clean engineering with AI — building products that are fast, intelligent, and built to grow.
             </p>
-            <a href="mailto:harshanand55002@gmail.com" className="inline-flex items-center gap-2 px-5 py-2.5 bg-teal-400 text-navy-950 text-sm font-medium rounded-full hover:bg-teal-300 transition-colors">
-              Happy to connect
-              <span>💬</span>
-            </a>
+            <div className="flex flex-wrap gap-3">
+              <a href="mailto:harshanand55002@gmail.com" className="inline-flex items-center gap-2 px-5 py-2.5 bg-teal-400 text-navy-950 text-sm font-medium rounded-full hover:bg-teal-300 transition-colors">
+                Happy to connect
+                <span>💬</span>
+              </a>
+              <a href="/resume.pdf" download className="inline-flex items-center gap-2 px-5 py-2.5 border border-teal-400 text-teal-400 text-sm font-medium rounded-full hover:bg-teal-400/10 transition-colors">
+                Download Resume
+                <span aria-hidden="true">↓</span>
+              </a>
+            </div>
           </Reveal>
         </div>
 
         <Reveal delay={150}>
-          <div className="flex flex-wrap justify-center gap-2 mb-20">
+          <div className="flex flex-wrap justify-center gap-2 mb-14 sm:mb-20">
             {navPills.map((item, i) => (
               <a key={item} href={`#${item.toLowerCase().replace(' ', '-')}`} className={`px-4 py-2 text-xs md:text-sm rounded-full border transition-colors ${i === 0 ? 'border-teal-400 text-teal-400 bg-teal-400/5' : 'border-navy-700 text-gray-400 hover:border-teal-400/50 hover:text-teal-300'}`}>
                 {item}
@@ -62,10 +68,10 @@ export default function About() {
 
         <Reveal delay={200}>
           <div className="relative text-center">
-            <h3 className="text-5xl sm:text-6xl md:text-8xl font-bold text-white leading-none tracking-tight">
+            <h3 className="text-3xl sm:text-6xl md:text-8xl font-bold text-white leading-none tracking-tight">
               BUILDING WITH
             </h3>
-            <h3 className="text-5xl sm:text-6xl md:text-8xl font-bold leading-none tracking-tight mt-1">
+            <h3 className="text-3xl sm:text-6xl md:text-8xl font-bold leading-none tracking-tight mt-1">
               <span className="text-transparent [-webkit-text-stroke:1.5px_#2dd4bf]">CODE</span>
             </h3>
           </div>

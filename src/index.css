@@ -25,6 +25,26 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+@media (hover: none) {
+  .tap-card-hint {
+    display: inline-flex;
+  }
+
+  .group:hover .project-card-inner:not(.is-flipped) {
+    transform: none;
+  }
+
+  .group .project-card-inner.is-flipped,
+  .group:hover .project-card-inner.is-flipped,
+  .group:focus-within .project-card-inner {
+    transform: rotateY(180deg);
+  }
+}
+
+.tap-card-hint {
+  display: none;
+}
+
 /* Light theme - proper color system */
 [data-theme="light"] {
   --color-navy-950: #f8fafc;

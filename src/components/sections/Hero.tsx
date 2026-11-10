@@ -15,7 +15,7 @@ export default function Hero({ onViewWork }: HeroProps) {
       <Scene />
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 text-center pointer-events-none">
         <p className="text-teal-400 font-mono text-sm md:text-base tracking-widest mb-4">AI FULL STACK DEVELOPER</p>
-        <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">Harsh <span className="text-amber-400">Anand</span></h1>
+        <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-4">Harsh <span className="text-amber-400">Anand</span></h1>
         <p className="text-gray-400 max-w-xl text-base md:text-lg">Building intelligent, scalable web experiences with React, Node.js, and AI.</p>
         <button
           ref={magneticRef as React.RefObject<HTMLButtonElement>}

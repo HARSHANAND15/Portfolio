@@ -1,0 +1,172 @@
+%PDF-1.4
+%Portfolio Resume
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 6624 >>
+stream
+0.055 0.102 0.176 rg 0 716 595 126 re f
+0.02 0.51 0.49 rg 0 716 6 126 re f
+1 1 1 rg BT /F2 25 Tf 1 0 0 1 48.00 799.00 Tm (Harsh Anand) Tj ET
+0.47 0.91 0.85 rg BT /F2 9 Tf 1 0 0 1 48.00 778.00 Tm (BACKEND DEVELOPER  |  API & FULL-STACK DEVELOPMENT) Tj ET
+0.91 0.94 0.97 rg BT /F1 8.2 Tf 1 0 0 1 48.00 759.00 Tm (Jaipur, Rajasthan, India  |  harshanand55002@gmail.com) Tj ET
+0.91 0.94 0.97 rg BT /F1 8.2 Tf 1 0 0 1 48.00 745.00 Tm (github.com/HARSHANAND15) Tj ET
+0.47 0.91 0.85 RG 0.8 w 48 733 m 547 733 l S
+0.02 0.51 0.49 rg BT /F2 9.1 Tf 1 0 0 1 48.00 692.00 Tm (PROFESSIONAL SUMMARY) Tj ET
+0.83 0.87 0.9 RG 0.7 w 48 688 m 547 688 l S
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 663.20 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 8.25 Tf 1 0 0 1 62.00 663.20 Tm (Builds maintainable backend services and full-stack applications using Node.js, TypeScript, Express, and modern web) Tj ET
+0.12 0.17 0.24 rg BT /F1 8.25 Tf 1 0 0 1 62.00 652.40 Tm (technologies.) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 640.60 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 8.25 Tf 1 0 0 1 62.00 640.60 Tm (Delivered healthcare API modules, role-based access control, CRUD routes, and OpenAPI documentation during a) Tj ET
+0.12 0.17 0.24 rg BT /F1 8.25 Tf 1 0 0 1 62.00 629.80 Tm (completed Backend Developer internship.) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.1 Tf 1 0 0 1 48.00 619.80 Tm (PROFESSIONAL EXPERIENCE) Tj ET
+0.83 0.87 0.9 RG 0.7 w 48 615.8000000000002 m 547 615.8000000000002 l S
+0.055 0.102 0.176 rg BT /F2 9 Tf 1 0 0 1 48.00 601.80 Tm (Backend Developer Intern | Awwaltech) Tj ET
+0.36 0.42 0.49 rg BT /F1 7.6 Tf 1 0 0 1 467.20 601.80 Tm (May 25 - Aug 25, 2026) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 577.20 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 8.2 Tf 1 0 0 1 62.00 577.20 Tm (Engineered Patient and Doctor Management modules for a Node.js/TypeScript healthcare REST API.) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 565.10 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 8.2 Tf 1 0 0 1 62.00 565.10 Tm (Implemented RBAC with Role/Module models and CRUD routes to deliver structured authorization.) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 553.00 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 8.2 Tf 1 0 0 1 62.00 553.00 Tm (Resolved plaintext password storage and OTP bypass issues, strengthening authentication flows.) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 540.90 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 8.2 Tf 1 0 0 1 62.00 540.90 Tm (Authored Swagger/OpenAPI 3.0 endpoint documentation and configured a Docker-based SQL Server environment.) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.1 Tf 1 0 0 1 48.00 530.90 Tm (TECHNICAL SKILLS) Tj ET
+0.83 0.87 0.9 RG 0.7 w 48 526.9000000000001 m 547 526.9000000000001 l S
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 502.90 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 7.9 Tf 1 0 0 1 62.00 502.90 Tm (Backend & APIs: Node.js, Express, REST APIs, TypeScript, JWT, RBAC, CRUD, Swagger/OpenAPI 3.0) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 491.90 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 7.9 Tf 1 0 0 1 62.00 491.90 Tm (Databases & Developer Tools: MongoDB, SQL Server, Azure SQL, Docker, Git, GitHub, Postman) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 480.90 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 7.9 Tf 1 0 0 1 62.00 480.90 Tm (Languages & Frontend: JavaScript, TypeScript, Java, Python, React, Next.js, HTML, CSS, Tailwind CSS) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 469.90 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 7.9 Tf 1 0 0 1 62.00 469.90 Tm (Additional: WebSockets, Server-Sent Events \\\(SSE\\\), Firebase, Three.js, OCR \\\(Tesseract.js\\\), LLMs, Prompt) Tj ET
+0.12 0.17 0.24 rg BT /F1 7.9 Tf 1 0 0 1 62.00 459.90 Tm (Engineering) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.1 Tf 1 0 0 1 48.00 449.90 Tm (PROJECTS) Tj ET
+0.83 0.87 0.9 RG 0.7 w 48 445.9000000000001 m 547 445.9000000000001 l S
+0.055 0.102 0.176 rg BT /F2 9 Tf 1 0 0 1 48.00 429.90 Tm (Node.js + TypeScript API) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 408.10 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 7.95 Tf 1 0 0 1 62.00 408.10 Tm (Built a typed REST API with scalable route/controller structure and clean architecture.) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 397.30 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 7.95 Tf 1 0 0 1 62.00 397.30 Tm (Applied TypeScript to improve type safety and support maintainable backend development.) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 386.50 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 7.95 Tf 1 0 0 1 62.00 386.50 Tm (Tech: Node.js, TypeScript, Express, REST APIs.) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 376.40 Tm (-) Tj ET
+0.36 0.42 0.49 rg BT /F1 7.35 Tf 1 0 0 1 62.00 376.40 Tm (GitHub: github.com/HARSHANAND15/Nodejs-ts-api) Tj ET
+0.055 0.102 0.176 rg BT /F2 9 Tf 1 0 0 1 48.00 371.40 Tm (MentorLink) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 349.60 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 7.95 Tf 1 0 0 1 62.00 349.60 Tm (Developed a full-stack mentorship marketplace with mentor discovery and profile management.) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 338.80 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 7.95 Tf 1 0 0 1 62.00 338.80 Tm (Added a blog experience across a React frontend and Node.js backend.) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 328.00 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 7.95 Tf 1 0 0 1 62.00 328.00 Tm (Tech: React, TypeScript, Node.js, MongoDB.) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 317.90 Tm (-) Tj ET
+0.36 0.42 0.49 rg BT /F1 7.35 Tf 1 0 0 1 62.00 317.90 Tm (GitHub: github.com/HARSHANAND15/mentorlink) Tj ET
+0.055 0.102 0.176 rg BT /F2 9 Tf 1 0 0 1 48.00 312.90 Tm (Flask System Monitoring App) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 291.10 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 7.95 Tf 1 0 0 1 62.00 291.10 Tm (Created a real-time dashboard to monitor CPU, memory, and system resource usage.) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 280.30 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 7.95 Tf 1 0 0 1 62.00 280.30 Tm (Presented server metrics in a clear interface for at-a-glance monitoring.) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 269.50 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 7.95 Tf 1 0 0 1 62.00 269.50 Tm (Tech: Python, Flask.) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 259.40 Tm (-) Tj ET
+0.36 0.42 0.49 rg BT /F1 7.35 Tf 1 0 0 1 62.00 259.40 Tm (GitHub: github.com/HARSHANAND15/Flask-system-monitoring-app) Tj ET
+0.83 0.87 0.9 RG 0.6 w 48 39 m 547 39 l S
+0.36 0.42 0.49 rg BT /F1 7 Tf 1 0 0 1 48.00 27.00 Tm (HARSH ANAND) Tj ET
+0.36 0.42 0.49 rg BT /F1 7 Tf 1 0 0 1 519.00 27.00 Tm (PAGE 1) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 5082 >>
+stream
+0.055 0.102 0.176 rg 0 780 595 62 re f
+0.02 0.51 0.49 rg 0 780 6 62 re f
+1 1 1 rg BT /F2 16 Tf 1 0 0 1 48.00 814.00 Tm (Harsh Anand) Tj ET
+0.47 0.91 0.85 rg BT /F2 8 Tf 1 0 0 1 48.00 797.00 Tm (BACKEND DEVELOPER) Tj ET
+0.91 0.94 0.97 rg BT /F1 7.3 Tf 1 0 0 1 310.00 805.00 Tm (harshanand55002@gmail.com  |  github.com/HARSHANAND15) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.1 Tf 1 0 0 1 48.00 758.00 Tm (PROJECTS | CONTINUED) Tj ET
+0.83 0.87 0.9 RG 0.7 w 48 754 m 547 754 l S
+0.055 0.102 0.176 rg BT /F2 9 Tf 1 0 0 1 48.00 738.00 Tm (Firebase Project | Kids Fun Learning) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 716.20 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 7.95 Tf 1 0 0 1 62.00 716.20 Tm (Integrated Firebase authentication and realtime database features into a kids learning web app.) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 705.40 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 7.95 Tf 1 0 0 1 62.00 705.40 Tm (Deployed the application to Firebase Hosting for public access.) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 694.60 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 7.95 Tf 1 0 0 1 62.00 694.60 Tm (Tech: JavaScript, Firebase, Authentication, Realtime Database.) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 684.50 Tm (-) Tj ET
+0.36 0.42 0.49 rg BT /F1 7.35 Tf 1 0 0 1 62.00 684.50 Tm (GitHub: github.com/HARSHANAND15/Firebase-Project) Tj ET
+0.055 0.102 0.176 rg BT /F2 9 Tf 1 0 0 1 48.00 679.50 Tm (Electronics E-Commerce Site) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 657.70 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 7.95 Tf 1 0 0 1 62.00 657.70 Tm (Built an electronics storefront with product listings and intuitive browsing flows.) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 646.90 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 7.95 Tf 1 0 0 1 62.00 646.90 Tm (Designed a clean frontend shopping experience for exploring products.) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 636.10 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 7.95 Tf 1 0 0 1 62.00 636.10 Tm (Tech: HTML, CSS, JavaScript, E-Commerce.) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 626.00 Tm (-) Tj ET
+0.36 0.42 0.49 rg BT /F1 7.35 Tf 1 0 0 1 62.00 626.00 Tm (GitHub: github.com/HARSHANAND15/Electronics-site) Tj ET
+0.055 0.102 0.176 rg BT /F2 9 Tf 1 0 0 1 48.00 621.00 Tm (Amazon Clone) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 599.20 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 7.95 Tf 1 0 0 1 62.00 599.20 Tm (Recreated familiar e-commerce storefront patterns for product discovery.) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 588.40 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 7.95 Tf 1 0 0 1 62.00 588.40 Tm (Implemented product browsing, cart interactions, and a recognizable shopping layout.) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 577.60 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 7.95 Tf 1 0 0 1 62.00 577.60 Tm (Tech: HTML, CSS, JavaScript.) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 567.50 Tm (-) Tj ET
+0.36 0.42 0.49 rg BT /F1 7.35 Tf 1 0 0 1 62.00 567.50 Tm (GitHub: github.com/HARSHANAND15/Amazon-Clone) Tj ET
+0.055 0.102 0.176 rg BT /F2 9 Tf 1 0 0 1 48.00 562.50 Tm (3D Portfolio Website) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 540.70 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 7.95 Tf 1 0 0 1 62.00 540.70 Tm (Designed and developed an interactive portfolio with animated 3D wireframe scenes.) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 529.90 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 7.95 Tf 1 0 0 1 62.00 529.90 Tm (Combined code-rain visuals, scroll-triggered reveals, and smooth scrolling for an immersive experience.) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 519.10 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 7.95 Tf 1 0 0 1 62.00 519.10 Tm (Tech: React, TypeScript, Three.js, React Three Fiber, Tailwind CSS.) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 509.00 Tm (-) Tj ET
+0.36 0.42 0.49 rg BT /F1 7.35 Tf 1 0 0 1 62.00 509.00 Tm (GitHub: github.com/HARSHANAND15/Portfolio) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.1 Tf 1 0 0 1 48.00 498.00 Tm (EDUCATION) Tj ET
+0.83 0.87 0.9 RG 0.7 w 48 494.00000000000045 m 547 494.00000000000045 l S
+0.055 0.102 0.176 rg BT /F2 8.35 Tf 1 0 0 1 48.00 476.00 Tm (B.Tech in Computer Engineering | Poornima Institute of Engineering & Technology \(PIET\)) Tj ET
+0.36 0.42 0.49 rg BT /F1 7.3 Tf 1 0 0 1 506.85 476.00 Tm (2023 - 2027) Tj ET
+0.02 0.51 0.49 rg BT /F2 9.2 Tf 1 0 0 1 49.00 454.50 Tm (-) Tj ET
+0.12 0.17 0.24 rg BT /F1 7.9 Tf 1 0 0 1 62.00 454.50 Tm (Batch 2023-2027 | Section 7C) Tj ET
+0.055 0.102 0.176 rg BT /F2 8.35 Tf 1 0 0 1 48.00 448.50 Tm (12th \(Senior Secondary\) | S.N.S.R.K.S College, Saharsa) Tj ET
+0.36 0.42 0.49 rg BT /F1 7.3 Tf 1 0 0 1 506.85 448.50 Tm (2021 - 2023) Tj ET
+0.055 0.102 0.176 rg BT /F2 8.35 Tf 1 0 0 1 48.00 432.50 Tm (10th \(Secondary\) | Eklavya Central School) Tj ET
+0.36 0.42 0.49 rg BT /F1 7.3 Tf 1 0 0 1 506.85 432.50 Tm (2020 - 2021) Tj ET
+0.83 0.87 0.9 RG 0.6 w 48 39 m 547 39 l S
+0.36 0.42 0.49 rg BT /F1 7 Tf 1 0 0 1 48.00 27.00 Tm (HARSH ANAND) Tj ET
+0.36 0.42 0.49 rg BT /F1 7 Tf 1 0 0 1 519.00 27.00 Tm (PAGE 2) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000027 00000 n 
+0000000076 00000 n 
+0000000139 00000 n 
+0000000236 00000 n 
+0000000338 00000 n 
+0000000474 00000 n 
+0000007150 00000 n 
+0000007286 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+12420
+%%EOF

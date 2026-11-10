@@ -8,6 +8,7 @@ import BackgroundScene from './components/three/BackgroundScene'
 import About from './components/sections/About'
 import Education from './components/sections/Education'
 import Experience from './components/sections/Experience'
+import Certificates from './components/sections/Certificates'
 import Projects from './components/sections/Projects'
 import Contact from './components/sections/Contact'
 import { useSmoothScroll } from './hooks/useSmoothScroll'
@@ -42,6 +43,7 @@ function App() {
             <About />
             <Education />
             <Experience />
+            <Certificates />
             <Projects />
             <Contact />
           </div>

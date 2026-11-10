@@ -27,9 +27,10 @@ export const education = [
 
 export const experience = [
   {
-    role: "Software Development Intern",
+    role: "Backend Developer Intern",
     company: "Awwaltech",
-    duration: "Ongoing",
+    duration: "May 25, 2026 — August 25, 2026",
+    status: "Completed",
     points: [
       "Built Patient & Doctor Management modules for a Node.js/TypeScript healthcare REST API",
       "Implemented role-based access control (RBAC) with Role/Module models and CRUD routes",

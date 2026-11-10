@@ -18,6 +18,7 @@ Repository: https://portfolio-iota-olive-harshanand.vercel.app/
 - **Magnetic Buttons** — CTA buttons that subtly follow the cursor
 - **3D Tilt Project Cards** — cards tilt on mouse movement for a tactile feel
 - **Flip Cards** — project cards flip on hover to reveal a short description and links
+- **Resume and Certificate Downloads** — downloadable PDFs from the About and Certificates sections
 - **Animated Background** — floating wireframe shapes rendered behind all content
 - **Fully Responsive** — optimized layout for mobile, tablet, and desktop
 
@@ -42,7 +43,7 @@ Repository: https://portfolio-iota-olive-harshanand.vercel.app/
 src/
 ├── components/
 │   ├── layout/       # Navbar, Footer (future use)
-│   ├── sections/     # Hero, About, Education, Experience, Projects, Contact
+│   ├── sections/     # Hero, About, Education, Experience, Certificates, Projects, Contact
 │   ├── three/        # 3D scene components (Canvas, geometry, lighting)
 │   └── ui/           # Reusable UI: Reveal, SplitText, CustomCursor, etc.
 ├── hooks/            # Custom hooks (useInView, useMagnetic, useTilt, useSmoothScroll)
@@ -100,6 +101,11 @@ src/data/portfolio.ts
 ```
 
 Update the exported objects/arrays there to personalize the site without touching component code.
+
+Add the downloadable files to `public/` using these names:
+
+- `resume.pdf`
+- `internship-certificate.pdf`
 
 ---
 

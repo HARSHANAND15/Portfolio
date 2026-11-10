@@ -1,13 +1,16 @@
+import { useState } from 'react'
 import { GithubIcon } from '../ui/BrandIcons'
 import { projects } from '../../data/portfolio'
 import Reveal from '../ui/Reveal'
 import SplitText from '../ui/SplitText'
 
 function ProjectCard({ project }: { project: (typeof projects)[number] }) {
+  const [isFlipped, setIsFlipped] = useState(false)
+
   return (
     <div className="group [perspective:1200px] h-56">
-      <div className="relative w-full h-full transition-transform duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-        <div className="absolute inset-0 [backface-visibility:hidden] border border-navy-700 rounded-2xl p-6 bg-navy-950 flex flex-col justify-between">
+      <div className={`project-card-inner relative w-full h-full transition-transform duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] group-focus-within:[transform:rotateY(180deg)] ${isFlipped ? 'is-flipped' : ''}`}>
+        <div className="absolute inset-0 [backface-visibility:hidden] border border-navy-700 rounded-2xl p-4 sm:p-6 bg-navy-950 flex flex-col justify-between">
           <div>
             <div className="flex items-center justify-between mb-4">
               <div className="w-10 h-10 rounded-xl bg-teal-400/10 flex items-center justify-center text-teal-400">
@@ -30,16 +33,26 @@ function ProjectCard({ project }: { project: (typeof projects)[number] }) {
             </div>
             <h3 className="text-lg font-semibold text-white">{project.title}</h3>
           </div>
-          <div className="flex flex-wrap gap-2">
-            {project.tech.map((t) => (
-              <span key={t} className="text-xs px-2.5 py-1 rounded-full bg-navy-800 text-amber-300">
-                {t}
-              </span>
-            ))}
+          <div>
+            <div className="flex flex-wrap gap-2">
+              {project.tech.map((t) => (
+                <span key={t} className="text-xs px-2.5 py-1 rounded-full bg-navy-800 text-amber-300">
+                  {t}
+                </span>
+              ))}
+            </div>
+            <button
+              type="button"
+              onClick={() => setIsFlipped(true)}
+              className="tap-card-hint mt-2 text-xs font-mono text-teal-400"
+              aria-label={`View details for ${project.title}`}
+            >
+              Tap for details ↗
+            </button>
           </div>
         </div>
 
-        <div className="absolute inset-0 [backface-visibility:hidden] [transform:rotateY(180deg)] border border-teal-400/50 rounded-2xl p-6 bg-navy-900 flex flex-col justify-between">
+        <div className="absolute inset-0 [backface-visibility:hidden] [transform:rotateY(180deg)] border border-teal-400/50 rounded-2xl p-4 sm:p-6 bg-navy-900 flex flex-col justify-between">
           <div>
             <h3 className="text-sm font-semibold text-teal-300 mb-2">{project.title}</h3>
             <p className="text-gray-300 text-xs leading-relaxed">{project.description}</p>
@@ -57,6 +70,17 @@ function ProjectCard({ project }: { project: (typeof projects)[number] }) {
               </a>
             )}
           </div>
+          <button
+            type="button"
+            onClick={(event) => {
+              setIsFlipped(false)
+              event.currentTarget.blur()
+            }}
+            className="tap-card-hint text-xs font-mono text-teal-400"
+            aria-label={`Back to ${project.title}`}
+          >
+            Back
+          </button>
         </div>
       </div>
     </div>
@@ -65,14 +89,14 @@ function ProjectCard({ project }: { project: (typeof projects)[number] }) {
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-24 px-6 md:px-16 bg-navy-900/40">
+    <section id="projects" className="py-16 sm:py-24 px-4 sm:px-6 md:px-16 bg-navy-900/40">
       <div className="max-w-5xl mx-auto">
         <Reveal>
-          <p className="text-teal-400 font-mono text-sm mb-2">04. Work</p>
+          <p className="text-teal-400 font-mono text-sm mb-2">05. Work</p>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-3">
             <SplitText text="Featured Projects" />
           </h2>
-          <p className="text-gray-500 text-sm mb-10">Hover a card to see project details</p>
+          <p className="text-gray-500 text-sm mb-10">Hover, focus, or tap a card to see project details</p>
         </Reveal>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -11,7 +11,7 @@ const iconGradients = [
 
 export default function Experience() {
   return (
-    <section id="experience" className="relative z-10 py-24 px-6 md:px-16 overflow-hidden">
+    <section id="experience" className="relative z-10 py-16 sm:py-24 px-4 sm:px-6 md:px-16 overflow-hidden">
       <div className="absolute top-0 right-[15%] w-[380px] h-[380px] bg-teal-500/10 rounded-full blur-[130px] pointer-events-none" />
       <div className="absolute bottom-10 left-[5%] w-[300px] h-[300px] bg-amber-500/5 rounded-full blur-[120px] pointer-events-none" />
 
@@ -38,19 +38,22 @@ export default function Experience() {
                       {isCurrent && (
                         <span className="absolute -inset-1 rounded-2xl bg-teal-400/30 blur-md animate-pulse" />
                       )}
+                      {exp.status === 'Completed' && (
+                        <span className="text-xs text-teal-400 font-mono">Completed</span>
+                      )}
                       <div className={`relative w-12 h-12 md:w-14 md:h-14 rounded-2xl bg-gradient-to-br ${iconGradients[i % iconGradients.length]} border border-navy-700 flex items-center justify-center group-hover:border-teal-400/60 group-hover:scale-105 transition-all duration-300`}>
                         <Icon size={22} className="text-teal-300" />
                       </div>
                     </div>
 
-                    <div className="flex-1 relative overflow-hidden border border-navy-700 rounded-2xl p-6 bg-navy-900 group-hover:border-teal-400/50 group-hover:-translate-y-1 group-hover:shadow-[0_8px_30px_-10px_rgba(45,212,191,0.3)] transition-all duration-300">
+                    <div className="flex-1 min-w-0 relative overflow-hidden border border-navy-700 rounded-2xl p-4 sm:p-6 bg-navy-900 group-hover:border-teal-400/50 group-hover:-translate-y-1 group-hover:shadow-[0_8px_30px_-10px_rgba(45,212,191,0.3)] transition-all duration-300">
                       <div className="absolute -top-10 -right-10 w-32 h-32 bg-teal-400/0 group-hover:bg-teal-400/10 rounded-full blur-2xl transition-all duration-500" />
 
                       <div className="relative flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-1">
                         <h3 className="text-lg md:text-xl font-semibold text-white">
                           {exp.role}
                         </h3>
-                        <div className="flex items-center gap-2">
+                        <div className="flex flex-wrap items-center gap-2">
                           {isCurrent && (
                             <span className="flex items-center gap-1.5 text-xs text-teal-400 font-mono">
                               <span className="relative flex w-1.5 h-1.5">

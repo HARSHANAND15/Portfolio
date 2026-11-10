@@ -6,12 +6,12 @@ import SplitText from '../ui/SplitText'
 
 export default function Contact() {
   return (
-    <section id="contact" className="relative z-10 py-28 px-6 md:px-16 overflow-hidden">
+    <section id="contact" className="relative z-10 py-20 sm:py-28 px-4 sm:px-6 md:px-16 overflow-hidden">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-teal-500/10 rounded-full blur-[120px] pointer-events-none" />
 
       <div className="relative max-w-2xl mx-auto text-center">
         <Reveal>
-          <p className="text-teal-400 font-mono text-sm mb-2 tracking-widest">05. GET IN TOUCH</p>
+          <p className="text-teal-400 font-mono text-sm mb-2 tracking-widest">06. GET IN TOUCH</p>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-5">
             <SplitText text="Let's " />
             <SplitText text="Connect" className="text-amber-400" />
